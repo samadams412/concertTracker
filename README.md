@@ -23,7 +23,7 @@ SO THAT I can find tickets based off of price, location, venues, etc.
 ```
 ## Wireframe
 
-(/wireframe1.png)
+![wireframe](/wireframe1.png)
 
 
 ## APIs Used
