@@ -1,0 +1,26 @@
+* {
+  font-family: "Poiret One", cursive;
+}
+
+h1 {
+  font-family: "Poiret One", cursive;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  background-color: tomato;
+  color: aliceblue;
+  padding: 20px;
+  text-shadow: 5px 5px darkred;
+  line-height: 50px;
+  font-weight: bolder;
+}
+
+#details {
+  font-size: 1.6rem;
+  padding: 0;
+  line-height: 0;
+  text-shadow: none;
+  color: navy;
+  font-weight: bolder;
+  line-height: 60px;
+}
