@@ -2,24 +2,39 @@
   font-family: "Poiret One", cursive;
 }
 
-h1 {
-  font-family: "Poiret One", cursive;
+#container {
+  position: relative;
   align-items: center;
   text-align: center;
-  font-size: 5rem;
-  background-color: tomato;
+}
+
+.centered {
+  font-family: "Poiret One", cursive;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -100%);
   color: aliceblue;
   padding: 20px;
   text-shadow: 5px 5px darkred;
   line-height: 50px;
   font-weight: bolder;
+  font-size: 6rem;
+}
+
+#concertImg {
+  max-width: 100%;
+}
+
+#textInput {
+  width: 50%;
 }
 
 #details {
-  font-size: 1.6rem;
+  font-size: 2rem;
   padding: 0;
   line-height: 0;
-  text-shadow: none;
+  text-shadow: 1px 1px white;
   color: navy;
   font-weight: bolder;
   line-height: 60px;
