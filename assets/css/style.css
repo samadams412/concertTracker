@@ -26,6 +26,10 @@
   max-width: 100%;
 }
 
+#searchInput {
+  display: inline;
+}
+
 #textInput {
   width: 50%;
 }
@@ -38,4 +42,6 @@
   color: navy;
   font-weight: bolder;
   line-height: 60px;
+  align-items: center;
+  text-align: center;
 }

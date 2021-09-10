@@ -29,7 +29,7 @@
     <header>
       <main>
         <!-----------------------------Header with app name and back img or  video--------------------------->
-        <div class="container" id="details">
+        <div class="input-group" id="details">
             <h1 class = "centered">
             Concert Tracker<br />
             <span id="details">Follow, Track and Watch Your Favorite Band</span>
@@ -44,10 +44,11 @@
            
     </header>
         <!------------------------------Search bar to find favorite band info------------------------------------>    
-              <div>
-                <input type="text" class="row" id="textInput">
-                <a href="#features" class="row" id="btnSearch" max-width="100%">Search Your Favorite Band</a>
-              
+        <div class="input-group" id="searchInput">
+          <input  autofocus="true" type="text" id="searchBand" class="input-group" placeholder="search favorite band here!">
+          <button type="button" class="button expanded" class="success button" id="btnSearch"> Search</button>
+        </div>
+             
           
         
       </main>
