@@ -27,7 +27,7 @@
   </head>
   <body>
     <header>
-      <main>
+      <div>
         <!-----------------------------Header with app name and back img or  video--------------------------->
         <div class="input-group" id="details">
             <h1 class = "centered">
@@ -41,22 +41,21 @@
             width="100%"
             />
         </div>
+      </div>  
     </header>       
-    
+      <main>
         <!------------------------------Search bar to find favorite band info------------------------------------>    
         <div class="input-group" id="searchInput">
           <input  autofocus="true" type="text" id="searchBand" class="input-group" placeholder="search favorite band here!">
-          <button type="button" class="button expanded" class="success button" id="btnSearch"> Search</button>
+          <button type="button" class="button expanded" class="success button" id="btnSearch" onclick="getSearchValue()"> Search</button>
         </div>
              
         <!----------------------------Display info for Youtube API and for  API -------------------->
-        <div class="input-group" id="APIdata">
-          <div class="david">David API data</div>
-          <div class ="sam">Sam API data</div>
-      </div>
+        <div class =" david " id=" ticketMastDiv ">David API data</div>
+        <div class =" sam ">Sam API data</div>
 
         
-      </main>
+      
   
     </main>
     <footer></footer>
@@ -68,6 +67,5 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/sam.js"></script>
   </body>
 </html>
