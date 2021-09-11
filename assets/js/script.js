@@ -1,5 +1,5 @@
 var davidApiKey = 'cSttLyBiwySAkRm5AYEUUYNrFvs58miI'
-var tmDiv = document.getElementById('ticketMastDiv');
+var tmDiv = document.getElementById('ticketMaster');
 
 
 // var today = new Date();
