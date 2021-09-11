@@ -29,10 +29,13 @@
     <header>
       <div>
         <!-----------------------------Header with app name and back img or  video--------------------------->
+
         <div class="input-group" id="details">
             <h1 class = "centered">
-            Concert Tracker<br />
+              
+            Concert Tracker®<br />
             <span id="details">Follow, Track and Watch Your Favorite Band</span>
+            
             </h1>  
             <img
             id="concertImg"
@@ -43,19 +46,29 @@
         </div>
       </div>  
     </header>       
-      <main>
-        <!------------------------------Search bar to find favorite band info------------------------------------>    
-        <div class="input-group" id="searchInput">
+        <!------------------------------ add paragraph intro to Application -------------------------------------->
+
+        <p id="intro"> Welcome to our Concert Tracker!This application will let you search for your favorite band's upcoming concert and provide ticketmaster data and a youtube video of some of their best hits in one easy search!</br></br><span style="color:goldenrod">To begin: please input your favorite band name on the searchbar !</span></p>
+        
+        <!------------------------------ Search bar to find favorite band info------------------------------------>  
+    
+        <div class="input-group" id="searchInput" class ="fa-3x">
+  
           <input  autofocus="true" type="text" id="searchBand" class="input-group" placeholder="search favorite band here!">
-          <button type="button" class="button expanded" class="success button" id="btnSearch" onclick="getSearchValue()"> Search</button>
+          <button type="button" class="button expanded"  id="btnSearch"> Search Favorite Artist</button>
+          
         </div>
              
-        <!----------------------------Display info for Youtube API and for  API -------------------->
-        <div class =" david " id=" ticketMastDiv ">David API data</div>
-        <div class =" sam ">Sam API data</div>
+        <!---------------------------- Display info for Youtube API and for David API  -------------------->
 
-        
-      
+        <div class="input-group" id="APIdata">
+          <div id= "ticketMaster" class="david">David API data</div>
+          <div id="youtube" class ="sam">Sam API data</div>
+      </div>
+        <!---------------------------------- Footer details -------------------------------------->
+
+      <footer id="endNote">Thank you for using our Application! -- Developed by David, Sam and Denis ®</footer>  
+      </main>
   
     </main>
     <footer></footer>
