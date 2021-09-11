@@ -26,24 +26,16 @@
   max-width: 100%;
 }
 
-#searchInput {
-  display: inline;
-}
-
 #textInput {
   width: 50%;
 }
 
-.david {
-  border: 1px solid black;
-  width: 50%;
-  height: 400px;
-}
-
+.david,
 .sam {
   border: 1px solid black;
   width: 50%;
   height: 400px;
+  display: inline;
 }
 
 #details {
