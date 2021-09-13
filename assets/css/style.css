@@ -70,7 +70,7 @@
 }
 .david,
 .sam {
-  border: 1px solid royalblue; /* for reference to display search data need to take out after API is displayed */
+  border: 1px solid white; /* for reference to display search data need to take out after API is displayed */
   width: 50%;
   height: 400px;
   display: inline;
@@ -81,7 +81,9 @@
 #picture1,
 #name1,
 #date1 {
-  border: 1px solid black;
+  display: inline;
+  width: 50%;
+  /* border: 1px solid black; */
 }
 
 #details {
