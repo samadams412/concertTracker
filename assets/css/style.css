@@ -2,12 +2,16 @@
   font-family: "Poiret One", cursive;
 }
 
-#container {
+/* #container {
   position: relative;
   align-items: center;
   text-align: center;
-}
+} */
 
+#titleIntro {
+  margin: 0;
+  padding-bottom: 0;
+}
 #myVideo {
   position: relative;
   min-width: 100%;
@@ -15,33 +19,40 @@
   z-index: -1;
 }
 
+#smallR {
+  font-size: 3rem;
+  position: inherit;
+}
+
 .centered {
   font-family: "Poiret One", cursive;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -100%);
   color: aliceblue;
-  padding: 20px;
   text-shadow: 5px 5px darkred;
-  line-height: 50px;
+  line-height: 85px;
   font-weight: bolder;
-  font-size: 7rem;
+  font-size: 10rem;
 }
 
 #intro {
-  font-size: 2rem;
+  font-size: 1.5rem;
   align-items: center;
   text-align: center;
   font-weight: bolder;
-  line-height: 40px;
   color: whitesmoke;
-  background-color: royalblue;
+  opacity: 20%;
   margin: 0;
   padding: 20px;
   opacity: 90%;
-  text-shadow: 1.5px 1.5px darkblue;
+  text-shadow: 1.5px 1.5px navy;
   z-index: +1;
+  margin-bottom: 10px;
+  position: relative;
+  top: -220px;
+  background-color: rgb(185, 189, 192);
 }
 
 #searchBand {
@@ -75,25 +86,36 @@
 
 #details {
   font-size: 2rem;
-  padding: 0;
-  line-height: 0;
-  text-shadow: 1px 1px white;
-  color: navy;
+  text-shadow: 2px 2px darkred;
+  color: white;
   font-weight: bolder;
-  line-height: 60px;
+  line-height: none;
   align-items: center;
   text-align: center;
-  margin: 0;
+  margin-bottom: 0;
+  position: relative;
 }
 
-#btnSearch {
+#btnSearch,
+#btn1 {
   font-weight: bolder;
   text-shadow: 1px 1px navy;
   border-radius: 5px;
+  color: aliceblue;
 }
 
-#btnSearch:hover {
+#btnSearch:hover,
+#btn1:hover {
   transform: scale(1.15);
   background-color: coral;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+#endNote {
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  color: royalblue;
   font-weight: bolder;
 }
