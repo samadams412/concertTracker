@@ -67,6 +67,12 @@
   margin: 10px;
 }
 
+#picture1,
+#name1,
+#date1 {
+  border: 1px solid black;
+}
+
 #details {
   font-size: 2rem;
   padding: 0;
