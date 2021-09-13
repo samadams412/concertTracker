@@ -49,6 +49,10 @@ function getSearchValue(buttonValue) {
             artistPic.src = musicPic
             tmDiv.appendChild(artistPic);
 
+            var eventDiv = document.createElement('object');
+            eventDiv.textContent = data._embedded.events[0].url;
+            tmDiv.appendChild(eventDiv);
+
 //             var name = document.createElement('li');
 //             name.textContent = data.name;
 //             city.appendChild(name);
