@@ -1,6 +1,10 @@
 var davidApiKey = 'cSttLyBiwySAkRm5AYEUUYNrFvs58miI'
 var tmDiv = document.getElementById('ticketMaster');
-
+var tmPicDiv1 = document.getElementById('picture1');
+var tmNameDiv1 = document.getElementById('name1');
+var tmDateDiv1 = document.getElementById('date1');
+var tmVenueDiv1 = document.getElementById('venue1');
+var tmButton1 = document.getElementById('btn1');
 
 // var today = new Date();
 // console.log(today);
@@ -44,14 +48,30 @@ function getSearchValue(buttonValue) {
             console.log(data);
 
             
-            var artistPic = document.createElement('img');
-            var musicPic = data._embedded.events[0].images[0].url;
-            artistPic.src = musicPic
-            tmDiv.appendChild(artistPic);
+            var artistPic1 = document.createElement('img');
+            var musicPic1 = data._embedded.events[0].images[1].url;
+            artistPic1.src = musicPic1
+            tmPicDiv1.appendChild(artistPic1);
 
-            var eventDiv = document.createElement('object');
-            eventDiv.textContent = data._embedded.events[0].url;
-            tmDiv.appendChild(eventDiv);
+            var bandName1 = document.createElement('h3');
+            bandName1.textContent = data._embedded.events[0].name;
+            tmNameDiv1.appendChild(bandName1);
+
+            var eventDate1 = document.createElement('h5');
+            eventDate1.textContent = data._embedded.events[0].dates.start.dateTime;
+            tmDateDiv1.appendChild(eventDate1);
+
+            var concertVenue1 = document.createElement('h5');
+            concertVenue1.textContent = data._embedded.events[0]._embedded.venues[0].name;
+            tmVenueDiv1.appendChild(concertVenue1);
+
+            var eventURL1 = document.getElementById('anchorTag1');
+            showURL1 = data._embedded.events[0].url;
+            eventURL1.setAttribute('href', showURL1);
+
+            // var tmButton1 = document.getElementById('btn1');
+            // var tmButton1.text
+
 
 //             var name = document.createElement('li');
 //             name.textContent = data.name;
@@ -119,97 +139,6 @@ function getSearchValue(buttonValue) {
 //                     humid2.textContent = 'Humidity: ' + data.daily[0].humidity + ' %';
 //                     second.appendChild(humid2);
 
-//                     //forecast day 3
-
-//                     var forecastDate3 = document.createElement('li');
-//                     forecastDate3.textContent = date3;
-//                     third.appendChild(forecastDate3);
-
-//                     var currentIcon3 = document.createElement('img');
-//                     var weatherIcon3 = data.daily[1].weather[0].icon;
-//                     currentIcon3.src = 'http://openweathermap.org/img/wn/' + weatherIcon3 + '@2x.png';
-//                     third.appendChild(currentIcon3);
-
-//                     var temperature3 = document.createElement('li');
-//                     temperature3.textContent = 'Temp: ' + data.daily[1].temp.day + '°F';
-//                     third.appendChild(temperature3);
-                
-//                     var wind3 = document.createElement('li');
-//                     wind3.textContent = 'Wind: ' + data.daily[1].wind_speed + ' MPH';
-//                     third.appendChild(wind3);
-
-//                     var humid3 = document.createElement('li');
-//                     humid3.textContent = 'Humidity: ' + data.daily[1].humidity + ' %';
-//                     third.appendChild(humid3);
-
-//                     //forecast day 4
-
-//                     var forecastDate4 = document.createElement('li');
-//                     forecastDate4.textContent = date4;
-//                     fourth.appendChild(forecastDate4);
-
-//                     var currentIcon4 = document.createElement('img');
-//                     var weatherIcon4 = data.daily[2].weather[0].icon;
-//                     currentIcon4.src = 'http://openweathermap.org/img/wn/' + weatherIcon4 + '@2x.png';
-//                     fourth.appendChild(currentIcon4);
-
-//                     var temperature4 = document.createElement('li');
-//                     temperature4.textContent = 'Temp: ' + data.daily[2].temp.day + '°F';
-//                     fourth.appendChild(temperature4);
-                
-//                     var wind4 = document.createElement('li');
-//                     wind4.textContent = 'Wind: ' + data.daily[2].wind_speed + ' MPH';
-//                     fourth.appendChild(wind4);
-
-//                     var humid4 = document.createElement('li');
-//                     humid4.textContent = 'Humidity: ' + data.daily[2].humidity + ' %';
-//                     fourth.appendChild(humid4);
-
-//                     //forecast day 5
-
-//                     var forecastDate5 = document.createElement('li');
-//                     forecastDate5.textContent = date5;
-//                     fifth.appendChild(forecastDate5);
-
-//                     var currentIcon5 = document.createElement('img');
-//                     var weatherIcon5 = data.daily[3].weather[0].icon;
-//                     currentIcon5.src = 'http://openweathermap.org/img/wn/' + weatherIcon5 + '@2x.png';
-//                     fifth.appendChild(currentIcon5);
-
-//                     var temperature5 = document.createElement('li');
-//                     temperature5.textContent = 'Temp: ' + data.daily[3].temp.day + '°F';
-//                     fifth.appendChild(temperature5);
-                
-//                     var wind5 = document.createElement('li');
-//                     wind5.textContent = 'Wind: ' + data.daily[3].wind_speed + ' MPH';
-//                     fifth.appendChild(wind5);
-
-//                     var humid5 = document.createElement('li');
-//                     humid5.textContent = 'Humidity: ' + data.daily[3].humidity + ' %';
-//                     fifth.appendChild(humid5);
-
-//                     //forecast day 6
-
-//                     var forecastDate6 = document.createElement('li');
-//                     forecastDate6.textContent = date6;
-//                     sixth.appendChild(forecastDate6);
-
-//                     var currentIcon6 = document.createElement('img');
-//                     var weatherIcon6 = data.daily[4].weather[0].icon;
-//                     currentIcon6.src = 'http://openweathermap.org/img/wn/' + weatherIcon6 + '@2x.png';
-//                     sixth.appendChild(currentIcon6);
-
-//                     var temperature6 = document.createElement('li');
-//                     temperature6.textContent = 'Temp: ' + data.daily[4].temp.day + '°F';
-//                     sixth.appendChild(temperature6);
-                
-//                     var wind6 = document.createElement('li');
-//                     wind6.textContent = 'Wind: ' + data.daily[4].wind_speed + ' MPH';
-//                     sixth.appendChild(wind6);
-
-//                     var humid6 = document.createElement('li');
-//                     humid6.textContent = 'Humidity: ' + data.daily[4].humidity + ' %';
-//                     sixth.appendChild(humid6);
 
                     
 //                 });
