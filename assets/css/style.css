@@ -1,6 +1,6 @@
 * {
   font-family: "Poiret One", cursive;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 #titleIntro {
@@ -68,6 +68,11 @@
   border-radius: 5px;
 }
 
+#ticketMaster {
+  background-color: rgba(121, 117, 117, 0.5);
+  z-index: -1;
+}
+
 #ticketMaster,
 #youtube {
   border-radius: 15px;
@@ -82,13 +87,31 @@
   margin: 10px;
 }
 
-#picture1,
 #name1,
-#date1 {
+#date1,
+#venue1 {
   display: inline;
-  width: 100px;
+  width: 50%;
   /* border: 1px solid black; */
   font-family: "Poiret One", cursive;
+  font-size: 1rem;
+}
+
+#sideData {
+  font-family: "Poiret One", cursive;
+  display: inline;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px navy;
+}
+#picture1 {
+  padding-top: 20px;
+  width: 420px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #details {
