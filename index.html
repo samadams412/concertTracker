@@ -39,9 +39,6 @@
           <video id="myVideo" autoplay loop muted>
             <source src="assets/images/backgroundvideo.mp4" type="video/mp4" />
           </video>
-            <video id="myVideo" autoplay loop muted>
-             <source src="assets/images/backgroundvideo.mp4" type="video/mp4">
-            </video>
 
           <!-- commenting this out to try to add video <img
             id="concertImg"
@@ -50,7 +47,7 @@
             width="100%"
             /> --->
         </div>
-        <p id="intro"> Welcome to our Concert Tracker! Search for your favorite band's upcoming concert and get ticketmaster data and a youtube video of some of their best hits in one easy search.</br><span style="color:gold">To begin: please input your favorite band name on the searchbar </span></p>
+        <p id="intro"> Welcome to our Concert Tracker! Search for your favorite band's upcoming concert and get ticketmaster data and a youtube video of some of their best hits in one easy search.</br></br><span style="color:gold">To begin: please input your favorite band name on the searchbar </span></p>
       </div>
     </header>
     <main> 
@@ -66,11 +63,11 @@
 
         <div class="input-group" id="APIdata">
         <!--------------------------------------Ticketmaster API format and ------------------------->  
-          <div class="input-group" id= "ticketMaster" class="david">
-            <div class="input-group"id="picture1"></div>
-            <div class="input-group"id="name1"></div>
-            <div class="input-group"id="date1"></div>
-            <div class="input-group"id="venue1"></div>
+          <div id= "ticketMaster" class="david">
+            <div id="picture1"></div>
+            <div id="name1"></div>
+            <div id="date1"></div>
+            <div id="venue1"></div>
             <a id="anchorTag1">
               <button type="button" class="button success expanded" id="btn1">Get Tickets & More Info</button>
             </a>
@@ -81,10 +78,11 @@
       </div>
       <!---------------------------------- Footer details -------------------------------------->
     </main>
-    <footer id="endNote">
+
+  <footer id="endNote">
       Thank you for using our application! -- Developed by Denis, David and Sam
       ®
-    </footer>
+  </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
