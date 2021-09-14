@@ -16,8 +16,7 @@ Concert Tracker
 ## Deployed URL
 
 ```md
-https://utsavirtsanfs-lax6077.slack.com/team/U027HH415FH
-Link [Here](https://utsavirtsanfs-lax6077.slack.com/team/U027HH415FH) to view App.
+https://samadams412.github.io/pj1-sam-dav-den/
 ```
 
 ## Project Description
