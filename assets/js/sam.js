@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
   //Youtube API Key
   var key = "AIzaSyBTE - KEJhgABbozGorPJWeBApQVVDA1gl4";
@@ -9,7 +7,6 @@ $(document).ready(function () {
   var playlistId = "PL217-XwasFTbMISZ0zZ8RfwBVgpFyS6RK";
   //This is the HTTP request
   var URL = "https://www.googleapis.com/youtube/v3/playlistItems";
-
 
   // When we enter keywords into search , use youtube API to find top search results
   // and filter to playlists only, find out if we need to parse in order to grab the PlaylistId
@@ -21,7 +18,7 @@ $(document).ready(function () {
     part: "snippet",
     key: key,
     maxResults: 10,
-    playlistId: playlistId
+    playlistId: playlistId,
   };
 
   //call our function
@@ -43,7 +40,7 @@ $(document).ready(function () {
   function mainVid(id) {
     //change HTML withtin video ID
     $("#video").html(
-      `<iframe width="480" height="270" src="https://www.youtube.com/embed/${id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+      `<iframe width="100%" height="420" src="https://www.youtube.com/embed/${id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     );
     console.log(id);
   }
@@ -61,7 +58,7 @@ $(document).ready(function () {
       var description = item.snippet.description.substring(0, 100);
       //gets the video Id
       var vid = item.snippet.resourceId.videoId;
-      $("main").append(`
+      $(".sam").append(`
       <article class="item" data-key="${vid}">
       <img src="${thumb}" alt="" class="thumb">
       <div class="details">
@@ -74,7 +71,7 @@ $(document).ready(function () {
   }
 
   //When we click on the main what we want is to search to find the article element
-  $("main").on("click", "article", function () {
+  $(".sam").on("click", "article", function () {
     var id = $(this).attr("data-key");
     //call mainVid and send the ID of the clicked video to it
     mainVid(id);

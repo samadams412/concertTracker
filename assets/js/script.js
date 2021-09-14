@@ -1,28 +1,17 @@
-var davidApiKey = 'cSttLyBiwySAkRm5AYEUUYNrFvs58miI'
-var tmDiv = document.getElementById('ticketMaster');
-var tmPicDiv1 = document.getElementById('picture1');
-var tmNameDiv1 = document.getElementById('name1');
-var tmDateDiv1 = document.getElementById('date1');
-var tmVenueDiv1 = document.getElementById('venue1');
-var tmButton1 = document.getElementById('btn1');
+var davidApiKey = "cSttLyBiwySAkRm5AYEUUYNrFvs58miI";
+var tmDiv = document.getElementById("ticketMaster");
+var tmPicDiv1 = document.getElementById("picture1");
+var tmNameDiv1 = document.getElementById("name1");
+var tmDateDiv1 = document.getElementById("date1");
+var tmVenueDiv1 = document.getElementById("venue1");
+var tmButton1 = document.getElementById("btn1");
 
 function getSearchValue(buttonValue) { 
     tmPicDiv1.innerHTML = '' 
     tmNameDiv1.innerHTML = '' 
     tmDateDiv1.innerHTML = '' 
     tmVenueDiv1.innerHTML = '' 
-
-
-<<<<<<< HEAD
-=======
-// //var searchButton = document.getElementsByID('searchBtn');
-
-
-function getSearchValue(buttonValue) {
-
     
-    
->>>>>>> refs/remotes/origin/main
     var inputValue = document.getElementById('searchBand').value;
     if (buttonValue) {
         inputValue = buttonValue;
