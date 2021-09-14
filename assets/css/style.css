@@ -4,14 +4,15 @@
 }
 
 #titleIntro {
-  margin: 0;
-  padding-bottom: 0;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 #myVideo {
   position: relative;
   min-width: 100%;
-  max-height: fit-content;
-  z-index: -1;
+  max-height: 35%;
+  z-index: 0;
 }
 
 #smallR {
@@ -22,16 +23,24 @@
 .centered {
   font-family: "Poiret One", cursive;
   position: absolute;
-  top: 60%;
+  top: 650px;
   left: 50%;
   transform: translate(-50%, -100%);
   color: aliceblue;
   text-shadow: 5px 5px darkred;
-  line-height: 85px;
+  line-height: 100px;
   font-weight: bolder;
-  font-size: 10rem;
+  font-size: 12rem;
+  z-index: +1;
+  margin: 0%;
 }
 
+#titleIntro {
+  margin: none;
+  padding: none;
+  z-index: -2;
+  background-color: black;
+}
 #intro {
   font-size: 1.5rem;
   align-items: center;
@@ -42,12 +51,12 @@
   margin: 0;
   padding: 20px;
   opacity: 90%;
-  text-shadow: 1.5px 1.5px navy;
+  text-shadow: 1.5px 1.5px darkred;
   z-index: +1;
   margin-bottom: 10px;
   position: relative;
-  top: -200px;
-  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  top: -80px;
+  line-height: 20px;
 }
 
 #searchBand {
@@ -65,7 +74,7 @@
 }
 .david,
 .sam {
-  border: 1px solid white; /* for reference to display search data need to take out after API is displayed */
+  border: 1px solid white; /* for reference to display search data need to take out after API info is linked and displayed */
   width: 50%;
   height: 400px;
   display: inline;
@@ -79,6 +88,7 @@
   display: inline;
   width: 100px;
   /* border: 1px solid black; */
+  font-family: "Poiret One", cursive;
 }
 
 #details {
@@ -103,7 +113,7 @@
 
 #btnSearch:hover,
 #btn1:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
   background-color: coral;
   font-weight: bolder;
   color: aliceblue;
@@ -117,6 +127,84 @@
   font-weight: bolder;
   position: fixed;
   bottom: 1px;
+}
+
+@media only screen and (max-width: 800px) {
+  .centered {
+    font-size: 4rem;
+    display: inline;
+    line-height: 30px;
+    position: absolute;
+    top: 10px;
+  }
+  #smallR {
+    font-size: 0.75rem;
+  }
+
+  #details {
+    font-size: 1rem;
+  }
+
+  #intro {
+    font-size: 0.5rem;
+    line-height: 15px;
+    top: 0px;
+  }
+  #APIdata {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .centered {
+    font-size: 8rem;
+    display: inline;
+    line-height: 70px;
+    position: absolute;
+    top: 400px;
+  }
+  #smallR {
+    font-size: 1.5rem;
+  }
+
+  #details {
+    font-size: 1rem;
+  }
+
+  #intro {
+    font-size: 1.5rem;
+    line-height: 25px;
+    top: -20px;
+  }
+  #APIdata {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .centered {
+    font-size: 4rem;
+    display: inline;
+    line-height: 50px;
+    position: absolute;
+    top: 250px;
+  }
+  #smallR {
+    font-size: 1.5rem;
+  }
+
+  #details {
+    font-size: 0.5rem;
+  }
+
+  #intro {
+    font-size: 1rem;
+    line-height: 25px;
+    top: -20px;
+  }
+  #APIdata {
+    display: block;
+  }
 }
 
 /* Sam CSS Addons */
@@ -137,6 +225,7 @@
 }
 
 .youtube-section {
+  margin: none;
   top: 50px;
 }
 
