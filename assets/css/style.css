@@ -1,6 +1,7 @@
 * {
   font-family: "Poiret One", cursive;
   /* box-sizing: border-box; */
+  /* background-color: rgba(0.5, 0.5, 0.5, 0.5); */
 }
 
 #titleIntro {
@@ -69,8 +70,13 @@
 }
 
 #ticketMaster {
-  background-color: rgba(121, 117, 117, 0.5);
-  z-index: -1;
+  /* background-color: rgba(121, 117, 117, 0.5); need to make all background black */
+  font-family: "Poiret One", cursive;
+  display: inline;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px navy;
 }
 
 #ticketMaster,
@@ -79,7 +85,7 @@
 }
 .david,
 .sam {
-  border: 1px solid white; /* for reference to display search data need to take out after API info is linked and displayed */
+  /* border: 1px solid white;  for reference to display search data need to take out after API info is linked and displayed */
   width: 50%;
   height: 400px;
   display: inline;
@@ -87,24 +93,25 @@
   margin: 10px;
 }
 
-#name1,
+/* #name1,
 #date1,
 #venue1 {
   display: inline;
   width: 50%;
-  /* border: 1px solid black; */
+  /* border: 1px solid black;
   font-family: "Poiret One", cursive;
   font-size: 1rem;
-}
+} not needed anymore*/
 
-#sideData {
+/* #sideData {
   font-family: "Poiret One", cursive;
   display: inline;
   align-items: center;
   text-align: center;
   color: white;
-  text-shadow: 1px 1px navy;
-}
+  text-shadow: 1px 1px navy;  
+}not needed anymore*/
+
 #picture1 {
   padding-top: 20px;
   width: 420px;
@@ -169,7 +176,7 @@
   }
 
   #intro {
-    font-size: 0.5rem;
+    font-size: 1rem;
     line-height: 15px;
     top: 0px;
   }
@@ -243,7 +250,7 @@
   }
 
   #details {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   #intro {
@@ -264,6 +271,7 @@
   margin-right: auto;
   margin-bottom: 10px;
   margin-top: none;
+  padding: 0%;
 }
 
 .youtube-container {
