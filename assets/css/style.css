@@ -70,18 +70,19 @@
 }
 
 #ticketMaster {
-  /* background-color: rgba(121, 117, 117, 0.5); need to make all background black */
   font-family: "Poiret One", cursive;
   display: inline;
   align-items: center;
   text-align: center;
   color: white;
-  text-shadow: 1px 1px navy;
+  text-shadow: 1.5px 1.5px black;
 }
 
 #ticketMaster,
 #youtube {
   border-radius: 15px;
+  /* background-color: black; */
+  font-family: "Poiret One", cursive;
 }
 .david,
 .sam {
@@ -114,7 +115,7 @@
 
 #picture1 {
   padding-top: 20px;
-  width: 420px;
+  min-width: 100%;
   display: block;
   margin-right: auto;
   margin-left: auto;
