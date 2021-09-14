@@ -17,6 +17,7 @@ Concert Tracker
 
 ```md
 https://utsavirtsanfs-lax6077.slack.com/team/U027HH415FH
+Link [Here](https://utsavirtsanfs-lax6077.slack.com/team/U027HH415FH) to view App.
 ```
 
 ## Project Description
