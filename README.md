@@ -13,6 +13,12 @@ Sam Adams
 Concert Tracker
 ```
 
+## Deployed URL
+
+```md
+https://utsavirtsanfs-lax6077.slack.com/team/U027HH415FH
+```
+
 ## Project Description
 
 ```md
@@ -47,7 +53,7 @@ https://developers.google.com/youtube
 1. Build our HTML skeleton for our landing page
 2. Style our page using a CSS framework(Other than Bootstrap)
 3. Embed our two server-side APIs
-4. Define Tasks for each member Sam(Youtube), David(TicketMaster), Denis(Foundation), 
+4. Define Tasks for each member Sam(Youtube), David(TicketMaster), Denis(Foundation),
 5. Work on each task to develop concert tracker
 6. Finish MVP
 7. Check for bugs and finilize changes on page format.
