@@ -27,7 +27,7 @@ var tmButton1 = document.getElementById('btn1');
 
 
 // //var searchButton = document.getElementsByID('searchBtn');
-    
+
 
 function getSearchValue(buttonValue) {
 
