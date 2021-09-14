@@ -12,7 +12,7 @@ $(document).ready(function () {
       var description = item.snippet.description.substring(0, 100);
       //gets the video Id
       var vid = item.id.videoId;
-      $(".sam").append(`
+      $(".playlist").append(`
             <article class="item" data-key="${vid}">
             <img src="${thumb}" alt="thumbnail" class="thumb">
             <div class="details">
@@ -45,6 +45,7 @@ $(document).ready(function () {
         console.log(data);
         //Store the videoId of the first search result in the array
         var id = data.items[0].id.videoId;
+        $(".playlist").empty();
         mainVid(id);
         displayVideos(data);
       }
@@ -58,7 +59,7 @@ $(document).ready(function () {
     );
   }
   // When a video is clicked within the <article> we will then pass that videoId into our mainVid function
-  $(".sam").on("click", "article", function () {
+  $(".playlist").on("click", "article", function () {
     var id = $(this).attr("data-key");
     //call mainVid and send the ID of the clicked video to it
     mainVid(id);
