@@ -13,6 +13,16 @@ function getSearchValue(buttonValue) {
     tmVenueDiv1.innerHTML = '' 
 
 
+<<<<<<< HEAD
+=======
+// //var searchButton = document.getElementsByID('searchBtn');
+
+
+function getSearchValue(buttonValue) {
+
+    
+    
+>>>>>>> refs/remotes/origin/main
     var inputValue = document.getElementById('searchBand').value;
     if (buttonValue) {
         inputValue = buttonValue;
