@@ -212,7 +212,7 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 675px) {
   .centered {
     font-size: 4rem;
     display: inline;
@@ -225,7 +225,7 @@
   }
 
   #details {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   #intro {
@@ -238,25 +238,26 @@
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 474px) {
   .centered {
-    font-size: 4rem;
+    font-size: 3.5rem;
     display: inline;
-    line-height: 50px;
+    line-height: 30px;
     position: absolute;
-    top: 200px;
+    top: 150px;
+    text-shadow: 3px 3px darkred;
   }
   #smallR {
     font-size: 1.5rem;
   }
 
   #details {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   #intro {
-    font-size: 1rem;
-    line-height: 25px;
+    font-size: 0.75rem;
+    line-height: 15px;
     top: 0px;
   }
   #APIdata {
