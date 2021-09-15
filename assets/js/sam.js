@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var API_KEY = "AIzaSyBTE - KEJhgABbozGorPJWeBApQVVDA1gl4";
+  var API_KEY = "AIzaSyAEDYSBy-CHJVrAi9vromenTkkGZdnmZeE";
 
   function displayVideos(data) {
     $.each(data.items, function (i, item) {
