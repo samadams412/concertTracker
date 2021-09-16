@@ -64,17 +64,20 @@ https://developers.google.com/youtube
 
 Displays the header of the webpage
 
-![img"Example 1".](/assets/images/ctEx1.png)
+![image](https://user-images.githubusercontent.com/84104912/133542395-1287ce7f-f91d-406e-9589-144485470024.png)
+
 
 Displays the Ticketmaster API Data
 
-![img"Example 2".](/assets/images/ctEx2.png)
+![image](https://user-images.githubusercontent.com/84104912/133542525-e76c536f-084b-46a9-9d1c-13f1887b5d0a.png)
+
 
 Displays the Youtube API data
 
-![img"Example 3".](/assets/images/ctEx3.png)
+![image](https://user-images.githubusercontent.com/84104912/133542557-ed7b3b48-dd3d-42b1-9989-7e1a89a5d084.png)
+
 
 Displays both the TicketMaster and Youtube API data
 
-![img"Example 4".](/assets/images/ctEx4.png)
+![image](https://github.com/samadams412/pj1-sam-dav-den/blob/main/assets/images/ctEx4.PNG)
 
