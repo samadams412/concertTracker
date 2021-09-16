@@ -1,4 +1,4 @@
-# pj1-sam-dav-den
+# Concert Tracker 
 
 ```md
 -Team Members-
@@ -19,30 +19,32 @@ Concert Tracker
 https://samadams412.github.io/pj1-sam-dav-den/
 ```
 
+## Github project link
+
+```md
+https://github.com/samadams412/pj1-sam-dav-den
+```
+
 ## Project Description
 
 ```md
-Front-end application that allows users to locate different ticket purchasing sites using our Google custom search API and provides them with other data and resources using our Youtube API.
+Front-end application that allows users to search a band/artist for the most upcoming event, provide them with ticket information as well as music video resources.
 ```
 
 ## User Story
 
 ```md
 AS AN concert goer
-I WANT to be able to access concert ticket information
-SO THAT I can find tickets based off of price, location, venues, etc.
+I WANT to be able to access upcoming ticket information, and view related music
+SO THAT I can decide if I want to purchase tickets to the upcoming event
 ```
-
-## Wireframe
-
-![wireframe](/wireframe1.png)
 
 ## APIs Used
 
 ```md
 APIs used
--Google Custom Search API-
-https://developers.google.com/custom-search/
+-Ticketmaster API-
+https://developer.ticketmaster.com/
 -Youtube API-
 https://developers.google.com/youtube
 ```
@@ -58,3 +60,21 @@ https://developers.google.com/youtube
 6. Finish MVP
 7. Check for bugs and finilize changes on page format.
 ```
+## Mock-Up
+```md
+Displays the header of the webpage
+```
+![Example 1](./assets/images/ctEx1.png)
+```md
+Displays the Ticketmaster API Data
+```
+![Example 2](./assets/images/ctEx2.png)
+```md
+Displays the Youtube API data
+```
+![Example 3](./assets/images/ctEx3.png)
+```md
+Displays both the TicketMaster and Youtube API data
+```
+![Example 4](./assets/images/ctEx4.png)
+
