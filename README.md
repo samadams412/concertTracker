@@ -61,20 +61,20 @@ https://developers.google.com/youtube
 7. Check for bugs and finilize changes on page format.
 ```
 ## Mock-Up
-```md
+
 Displays the header of the webpage
-```
-![Example 1](./assets/images/ctEx1.png)
-```md
+
+![Example 1"Example 1".](./assets/images/ctEx1.png)
+
 Displays the Ticketmaster API Data
-```
-![Example 2](./assets/images/ctEx2.png)
-```md
+
+![Example 2"Example 2".](./assets/images/ctEx2.png)
+
 Displays the Youtube API data
-```
-![Example 3](./assets/images/ctEx3.png)
-```md
+
+![Example 3"Example 3".](./assets/images/ctEx3.png)
+
 Displays both the TicketMaster and Youtube API data
-```
-![Example 4](./assets/images/ctEx4.png)
+
+![Example 4"Example 4".](./assets/images/ctEx4.png)
 
