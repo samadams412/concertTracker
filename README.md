@@ -64,17 +64,17 @@ https://developers.google.com/youtube
 
 Displays the header of the webpage
 
-![Example 1"Example 1".](./assets/images/ctEx1.png)
+![img"Example 1".](/assets/images/ctEx1.png)
 
 Displays the Ticketmaster API Data
 
-![Example 2"Example 2".](./assets/images/ctEx2.png)
+![img"Example 2".](/assets/images/ctEx2.png)
 
 Displays the Youtube API data
 
-![Example 3"Example 3".](./assets/images/ctEx3.png)
+![img"Example 3".](/assets/images/ctEx3.png)
 
 Displays both the TicketMaster and Youtube API data
 
-![Example 4"Example 4".](./assets/images/ctEx4.png)
+![img"Example 4".](/assets/images/ctEx4.png)
 
