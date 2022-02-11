@@ -16,7 +16,7 @@ Concert Tracker
 ## Deployed URL
 
 
-https://samadams412.github.io/pj1-sam-dav-den/
+https://samadams412.github.io/concertTracker/
 
 
 ## Github project link
